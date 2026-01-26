@@ -23,7 +23,7 @@ if (registerButton) {
 
         try {
             // 3. Відправляємо запит на сервер
-            const response = await fetch(`${API_URL}/register`, {
+            const response = await fetch(`${API_URL}/api/register`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ 
@@ -70,7 +70,7 @@ if (loginButton) {
 
         try {
             // 3. Відправляємо запит
-            const response = await fetch(`${API_URL}/login`, {
+            const response = await fetch(`${API_URL}/api/login`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ 

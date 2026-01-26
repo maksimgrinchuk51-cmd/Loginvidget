@@ -1,5 +1,5 @@
 // Твоя адреса API (порт 5284, як у тебе в терміналі)
-const API_URL = "myapi-production-dbce.up.railway.app";
+const API_URL = "myapi-production-dbce.up.railway.app/api";
 
 // ==========================================
 // ЛОГІКА РЕЄСТРАЦІЇ
@@ -23,7 +23,7 @@ if (registerButton) {
 
         try {
             // 3. Відправляємо запит на сервер
-            const response = await fetch(`${API_URL}/api/register`, {
+            const response = await fetch(`${API_URL}/register`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ 
@@ -70,7 +70,7 @@ if (loginButton) {
 
         try {
             // 3. Відправляємо запит
-            const response = await fetch(`${API_URL}/api/login`, {
+            const response = await fetch(`${API_URL}/login`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ 

@@ -1,5 +1,5 @@
 // Твоя адреса API (порт 5284, як у тебе в терміналі)
-const API_URL = "myapi-production-dbce.up.railway.app/api";
+const API_URL = "https://myapi-production-dbce.up.railway.app/api";
 
 // ==========================================
 // ЛОГІКА РЕЄСТРАЦІЇ

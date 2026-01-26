@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="Container">
+  <h1>Sign up</h1>
+
+  <form>
+    <!-- USERNAME -->
+    <div class="form-field">
+      <label for="regUsername">Login</label>
+      <input type="text" id="regUsername" required>
+    </div>
+
+    <!-- PASSWORD -->
+    <div class="form-field">
+      <label for="regPassword">Password</label>
+      <input type="password" id="regPassword" required>
+    </div>
+
+    <!-- BUTTON -->
+    <button type="button" class="submit-btn" id="submitbtn">
+      Create account
+    </button>
+
+    <!-- MESSAGE -->
+    <p id="msg" style="margin-top:10px;"></p>
+
+    <!-- LINK TO LOGIN -->
+    <p>
+      Already have an account?
+      <a href="#" id="goLogin" class="link-btn">Login</a>
+    </p>
+  </form>
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

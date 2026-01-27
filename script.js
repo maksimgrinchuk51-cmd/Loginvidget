@@ -126,6 +126,6 @@ if (goLogin) {
   goLogin.addEventListener("click", function (e) {
     e.preventDefault();
     // Виправлення: використовуємо login.html
-    window.location.href = "login.html"; 
+    window.location.href = "index.html"; 
   });
 }
